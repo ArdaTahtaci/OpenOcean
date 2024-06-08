@@ -1,0 +1,194 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lumanosimo-regular {
+    font-family: "Lumanosimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: rgb(189, 241, 37);
+
+}
+
+.connect-btn {
+    background-color: rgb(189, 241, 37);
+    color: rgb(65, 65, 65);
+}
+
+.connect-btn:hover {
+    color: rgb(189, 241, 37);
+    border-color: rgb(189, 241, 37);
+
+}
+
+.connect-btn:active {
+    color: rgb(189, 241, 37) !important;
+    border-color: rgb(189, 241, 37) !important;
+    background-color: rgb(96, 109, 50) !important;
+
+}
+
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items p {
+    font-size: 18px;
+    margin: auto 15px auto 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-items p:hover {
+    color: rgb(185, 209, 111);
+    text-decoration: underline;
+}
+
+.info-box {
+    background-color: #2C2C2C;
+    border: 1px solid #555;
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 30px 10px 30px 10px;
+}
+
+.info-box .info-type {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-overflow: ellipsis;
+    color: rgb(234, 234, 234);
+}
+
+.info-box .info-value {
+    display: inline-block;
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 21px;
+}
+
+.hot-group {
+    margin-top: 30px;
+}
+
+.nft-card {
+    width: 220px;
+    height: 310px;
+    border: 1px solid #555;
+    border-radius: 15px;
+    background-color: #2C2C2C;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nft-card:hover {
+    box-shadow: 0 0 5px 5px #444;
+    border-color: #444;
+    cursor: pointer;
+
+}
+
+.nft-img {
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.card-body span {
+    font-size: 17px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 25.5px;
+    text-align: left;
+    color: rgb(234, 234, 234);
+}
+
+.card-body .price {
+    margin-top: 5px;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 25.5px;
+    text-align: left;
+    color: rgb(230, 230, 230);
+}
+
+.wallet-btn {
+    display: flex;
+    border: 0;
+    display: block;
+    width: 100%;
+    margin: 10px 5px 10px 5px;
+    background-color: #2C2C2C;
+    color: #fff;
+    border-radius: 10px;
+    min-height: 80px;
+
+}
+
+.wallet-btn:hover {
+    background-color: #252525;
+}
+
+.wallet-btn img {
+    display: inline-block;
+}
+
+.wallet-btn div {
+    display: inline-block;
+}
+
+.providers-row {
+    width: 100%;
+
+}
+
+.providers-row div {
+    font-size: 24px;
+}
+
+.modal-options:hover {
+    background-color: #fff;
+}
+
+.loading-container {
+    position: relative;
+    height: 300px;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.spinner img {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+
+
+
+}
+
+.disconnect-btn {
+    border-color: #fff !important;
+    color: #fff !important;
+    width: fit-content !important;
+    background-color: #2C2C2C !important;
+}
